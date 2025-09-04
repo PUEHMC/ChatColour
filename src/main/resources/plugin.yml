@@ -1,0 +1,25 @@
+name: ChatColour
+version: 1.0.0
+main: cn.puehmc.Main
+api-version: 1.16
+author: PUEHMC
+website: https://github.com/PUEHMC/ChatColour
+description: 一个允许玩家使用符号显示颜色字的插件
+
+commands:
+  ccr:
+    description: ChatColour 重载命令
+    usage: /ccr
+    permission: chatcolour.reload
+    permission-message: 你没有权限使用此命令！
+
+permissions:
+  chatcolour.use:
+    description: 允许玩家使用颜色代码
+    default: false
+  chatcolour.reload:
+    description: 允许玩家重载插件
+    default: op
+  chatcolour.bypass:
+    description: 绕过所有限制
+    default: op
