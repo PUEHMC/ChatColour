@@ -1,7 +1,7 @@
 name: ChatColour
 version: 1.0.0
 main: cn.puehmc.Main
-api-version: 1.16
+api-version: 1.21
 author: PUEHMC
 website: https://github.com/PUEHMC/ChatColour
 description: 一个允许玩家使用符号显示颜色字的插件

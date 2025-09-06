@@ -4,7 +4,7 @@
 # GitHub: https://github.com/PUEHMC/ChatColour
 
 # 是否为所有玩家启用颜色代码 (true = 所有人可用, false = 仅白名单/权限玩家可用)
-enable-for-all: false
+enable-for-all: true
 
 # 白名单玩家列表 (当enable-for-all为false时生效)
 # 这些玩家即使没有chatcolour.use权限也可以使用颜色代码
